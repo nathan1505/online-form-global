@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_team_member_team_members",
+  "info": {
+    "displayName": "TeamMember",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FullName": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Phone": {
+      "type": "biginteger",
+      "required": true
+    },
+    "BirthDate": {
+      "type": "date",
+      "required": true
+    },
+    "ID": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "StudentID": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "University": {
+      "type": "string",
+      "required": true
+    },
+    "StudyMajor": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
