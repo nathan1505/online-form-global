@@ -1,0 +1,77 @@
+/* Make the background green */
+body {
+    background-color: #518360;
+}
+
+/* Center the form on the page */
+form {
+    margin: auto;
+    max-width: 500px;
+}
+
+/* Style the form labels */
+label {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* Style the form inputs */
+input[type="email"],
+input[type="file"] {
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    color: #007f56;
+}
+
+/* Style the form buttons */
+button {
+    margin: 10px;
+    color: #fff;
+    background-color: #007f56;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+button:hover {
+    background-color: #005436;
+}
+
+button:disabled {
+    background-color: #03bb7b;
+}
+
+/* Style the form person info */
+.person-info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #28a745;
+    margin-bottom: 20px;
+}
+
+/* Style the margin */
+.person-info:last-child {
+    margin-bottom: 0;
+}
+
+/* Style the warning text */
+.text-danger {
+    color: #ec8c95;
+    font-weight: bold;
+}
+
+.dynamic-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.col-md-4 {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+  
